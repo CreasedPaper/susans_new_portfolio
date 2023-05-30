@@ -10,14 +10,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Welcome to Susan Brethauer's Portfolio</h1>
+        <h1>Susan Brethauer</h1>
       </header>
       <NavBar/>
       <div className='bodyContent'>
         <Intro/>
         <Skills/>
-        <Contact/>
         <Projects/>
+        <Contact/>
+      
       </div>  
     </div>
   );

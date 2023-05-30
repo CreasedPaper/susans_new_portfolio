@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <div className='navBar'>
         <div className='navItem'>
-            <p className='navItemTitle'>Introduction</p>
+            <p className='navItemTitle'>About Me</p>
         </div>
         <div className='navItem'>
             <p className='navItemTitle'>Skills</p>
