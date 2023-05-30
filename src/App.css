@@ -1,5 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
 .App {
   text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
 .App-logo {
@@ -14,7 +19,7 @@
 }
 
 .App-header {
-  background-color: #2f234e;
+  background-color: #3A1772;
   /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
@@ -49,4 +54,81 @@
   align-items: center;
   justify-content: center;
   display: flex;
+}
+
+.projectsDiv {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+  align-self: center;
+}
+
+.projectList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+.projectTitle {
+  display: block;
+}
+
+.projectSubtitle {
+  display: inline;
+}
+
+.projectDesciption {
+  display: inline;
+}
+
+.contactItemDiv {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contactItem {
+  display: inline;
+  overflow: hidden;
+  white-space: nowrap;
+  flex-basis: 30%;
+
+}
+
+.icon {
+  scale: 2;
+  display: inline;
+  padding: 7px 8px 3px 5px;
+  /* padding-right: 1%;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%; */
+}
+
+.social {
+  display: inline;
+}
+
+.skillContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skillItemContainer {
+  display: inline;
+  overflow: hidden;
+  white-space: nowrap;
+  flex-basis: 20%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+.skillItem {
+  display: inline;
+  /* padding-bottom: 2%; */
+  /* padding-top: 2%; */
+  margin-bottom: 2%;
 }

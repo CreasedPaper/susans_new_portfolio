@@ -8,8 +8,8 @@ function Projects() {
         </h1>
         <div className='projectList'>
             <div className='projectItem'>
-                <h3 className='projectTitle'>BetterReads</h3>
-                <h4 className='projectSubtitle'> Description</h4>
+                <h2 className='projectTitle'>BetterReads</h2>
+                {/* <h3 className='projectSubtitle'> Description: </h3> */}
                 <p className='projectDesciption'>
                     BetterReads is a social platform for readers to keep track of the books they have read, find new
                     books to read, write and read reviews, connect with friends, collect BookMarks(reading achievements),
@@ -24,6 +24,14 @@ function Projects() {
                     is our team's collective baby and we are continuing work on it outside of the context of the course we all took. We are working to find
                     BetterReads a new home off of the university servers but for the moment, BetterReads can be 
                     found <a href="https://webdev.cse.buffalo.edu/hci/teams/echidna/">here</a>
+   
+                </p>
+            </div>
+            <div className='projectItem'>
+                <h3 className='projectTitle'>Project 2</h3>
+                {/* <h4 className='projectSubtitle'> Description</h4> */}
+                <p className='projectDesciption'>
+                    she lorem on my ipsum til i dolor
    
                 </p>
             </div>

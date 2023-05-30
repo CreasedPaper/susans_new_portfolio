@@ -5,11 +5,26 @@ function Contact() {
   return (
     <div className='contactDiv'>
         <h1>Contact</h1>
-        <CiMail/><p>email: rockettesusan@gmail.com</p>
-        <FaLinkedinIn/><p>linkedin: susanbrethauer</p>
-        <FaDiscord/><p>discord: creasedpaper#1147</p>
-        <FaTwitter/><p>twitter: @susanbrethauer</p>
-        <FaGithub/><p>github: CreasedPaper & susanbrethauer</p>
+        <div className='contactItemDiv'>
+            <div className='contactItem'>
+                <CiMail className='icon'/><p className='social'> rockettesusan@gmail.com</p>
+            </div>
+            <div className='contactItem'>
+                <FaLinkedinIn className='icon'/><p className='social'> susanbrethauer</p>
+            </div>
+            <div className='contactItem'>
+                <FaDiscord className='icon'/><p className='social'>creasedpaper#1147</p>
+            </div>
+            <div className='contactItem'>
+                <FaTwitter className='icon'/><p className='social'> @susanbrethauer</p>
+            </div>
+            <div className='contactItem'>
+                <FaGithub className='icon'/><p className='social'> CreasedPaper</p>
+            </div>
+            <div className='contactItem'>
+                <FaGithub className='icon'/><p className='social'> susanbrethauer</p>
+            </div>
+        </div>
     </div>
   )
 }
