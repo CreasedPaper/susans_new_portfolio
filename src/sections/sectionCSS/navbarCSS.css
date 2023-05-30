@@ -1,0 +1,33 @@
+.navBar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: #f1aff1;
+}
+
+/* .navItem {
+    cursor: pointer;
+
+    background-image: linear-gradient(#f1aff1 0 0);
+    background-size: 0;
+    background-repeat: no-repeat;
+    transition: .4s;
+
+}
+
+.navItem:hover{
+    background-size: 100%;
+} */
+
+
+
+.navItem {
+    width: 10%;
+    background-image: linear-gradient(#f758f7,#f758f7);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: .4s;
+  }
+  .navItem:hover {
+    background-size: 100% 100%;
+  }
