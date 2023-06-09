@@ -3,7 +3,7 @@ import { FaLinkedinIn, FaDiscord, FaTwitter, FaGithub } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
 function Contact() {
   return (
-    <div className='contactDiv'>
+    <div className='contactDiv' id='contact'>
         <h1>Contact</h1>
         <div className='contactItemDiv'>
             <div className='contactItem'>
@@ -13,7 +13,7 @@ function Contact() {
                 <FaLinkedinIn className='icon'/><p className='social'> susanbrethauer</p>
             </div>
             <div className='contactItem'>
-                <FaDiscord className='icon'/><p className='social'>creasedpaper#1147</p>
+                <FaDiscord className='icon'/><p className='social'>creasedpaper</p>
             </div>
             <div className='contactItem'>
                 <FaTwitter className='icon'/><p className='social'> @susanbrethauer</p>

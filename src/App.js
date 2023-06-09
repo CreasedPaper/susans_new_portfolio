@@ -15,9 +15,20 @@ function App() {
       <NavBar/>
       <div className='bodyContent'>
         <Intro/>
+        <p>{'                    '}</p>
+        <p>{'                    '}</p>
+
         <Skills/>
+        <p>{'                    '}</p>
+        <p>{'                    '}</p>
+        
         <Projects/>
+        <p>{'                    '}</p>
+        <p>{'                    '}</p>
+
         <Contact/>
+        <p>{'                    '}</p>
+        <p>{'                    '}</p>
       
       </div>  
     </div>

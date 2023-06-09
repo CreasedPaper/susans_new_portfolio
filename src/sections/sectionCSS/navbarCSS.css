@@ -31,3 +31,8 @@
   .navItem:hover {
     background-size: 100% 100%;
   }
+
+.headItem {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }

@@ -3,7 +3,7 @@ import "../index.css"
 
 function Intro() {
   return (
-    <div className='introDiv'>
+    <div className='introDiv' id="intro">
         <h1 className='introTitle'>About Me</h1>
         <p>Hi! I'm Susan Brethauer! In May of 2023 I finished my BS in Computer Science at the University at Buffalo with 
             a concentration in software. In my time at university I built many applications, mostly 

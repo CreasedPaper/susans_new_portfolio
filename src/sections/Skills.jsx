@@ -5,7 +5,7 @@ import { SiFlask, SiScala } from "react-icons/si";
 
 function Skills() {
   return (
-    <div className='skillsDiv'>
+    <div className='skillsDiv' id='skills'>
         <h1>Skills</h1>
         <div className='skillContainer'>
             <div className='skillItemContainer'>
