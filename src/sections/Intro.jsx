@@ -5,21 +5,21 @@ function Intro() {
   return (
     <div className='introDiv' id="intro">
         <h1 className='introTitle'>About Me</h1>
-        <p>Hi! I'm Susan Brethauer! In May of 2023 I finished my BS in Computer Science at the University at Buffalo with 
-            a concentration in software. In my time at university I built many applications, mostly 
-            webapps where I developed my love for front-end web development. In Spring of 2023 I 
-            worked in a team of four to develop BetterReads, a new book web app for readers to document
-            their latest reads, find and make reviews, and have all all around better user experience
-            than goodreads. This application earned me(and my team) third place at the department demo 
-            day where we were competing with long term, multi-semester and graduate student projects.
+        <p>Hi! I'm Susan Brethauer! In May of 2023 I completed my BS in Computer Science at the University at Buffalo with a concentration in software. 
+          In my time at university, I developed my love for front-end web development as I built many applications, mostly webapps. 
+          In Spring of 2023, I collaborated in a team of four students to develop BetterReads, a new book web app for readers to document their latest reads, 
+          find and make reviews, and have an all around better user experience than Goodreads. This application earned me and my team an award of Third Place 
+          at the Computer Science Department Annual Demo Day event at which we competed against other undergraduate students with long term, multi-semester 
+          projects as well as graduate students.
         </p>
-        <h3>Outside of School</h3>
+        <h3>Personal Interests</h3>
         <p>
-            Outside of programming I have a lot of hobbies. I love to read, crochet, paint, play video games, and hang out with my cat, Luna.
-            My favorite book genre is Fantasy my favorite series is all of the percy jackson books. They are the books that made me fall
-            in love with reading! I crochet a lot of differnt things, but my favorite things to make are fingerless gloves and amigurumi octopi.
-            My favorite video game of all time is Minecraft, but my favorite genre is MMORPGS, I love working in a rich world with lots of other people. 
-            I am currently playing Guild Wars 2, Cult of the Lamb, Minecraft, and Counter-Strike: Global Offensive.
+        Outside of programming I have a lot of hobbies. I love to read, crochet, paint, play video games, and hang out with my cat, Luna. My favorite book 
+        genre is Fantasy and my favorite series is Rick Riordan's books featuring Percy Jackson. They are the books that made me fall in love with reading! 
+        I crochet a lot of different things, but my favorite things to make are fingerless gloves and amigurumi octopi. My most recent accomplishment is 
+        the completion of a blanket and decorative flowers for my office. While my favorite video game of all time is Minecraft, my favorite genre is MMORPGS. 
+        I love working in a rich virtual world with lots of other people with whom I can interact. I am currently playing Guild Wars 2, Cult of the Lamb, 
+        Minecraft, and Counter-Strike: Global Offensive.
         </p>
         {/* <h3>Before University: My Journey</h3>
         <p>
