@@ -266,6 +266,9 @@ html {
   flex-basis: auto;
   align-self: auto;
   order: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   
 }
 
@@ -305,7 +308,7 @@ html {
   display: flex;
   flex-direction: row;
   /* flex-wrap: wrap; */
-  justify-content: normal;
+  justify-content: space-around;
   align-items: normal;
   align-content: normal;
   width: 100%;
@@ -356,7 +359,7 @@ html {
 
 .image3c:hover {
 
-  animation: myAnim 1s ease 0s 1 normal forwards;
+  /* animation: myAnim 1s ease 0s 1 normal forwards; */
   border-radius: 15px;
   box-shadow: 5px 5px 18px black;
   filter: grayscale(0%);
@@ -371,4 +374,46 @@ html {
   100% {
     opacity: 0;
   }
+}
+
+
+.littleButton {
+  width: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  background-color: #957fd1;
+  justify-self: center;
+  margin-top: 15px;
+  -webkit-transition: background-color .5s ease-out;
+  -moz-transition: background-color .5s ease-out;
+  -o-transition: background-color .5s ease-out;
+  transition: background-color .5s ease-out;
+}
+
+.buttonHolder {
+  display: flex;
+  justify-content: center;
+}
+
+.leftHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+}
+
+.littleButton:hover {
+  width: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  background-color: #4B51E8;
+  justify-self: center;
+  margin-top: 15px;
+  cursor: pointer;
 }
