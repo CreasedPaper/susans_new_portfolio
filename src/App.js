@@ -5,12 +5,16 @@ import Skills from './sections/Skills';
 import Contact from './sections/Contact';
 import Projects from './sections/Projects';
 import NavBar from './sections/NavBar';
+import collage from './sections/collage.png'
+import collage2 from './sections/collage2.png'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Susan Brethauer</h1>
+        <div className='backgound'></div>
+        {/* <img src={collage2} alt="Pictures of Susan with her family, friends, and things she enjoys."/>  */}
+        <h1 className='name'>Susan Brethauer</h1>
       </header>
       <NavBar/>
       <div className='bodyContent'>
