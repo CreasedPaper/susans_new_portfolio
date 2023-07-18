@@ -2,8 +2,13 @@ import React from 'react'
 import brds from './betterreads.png'
 import mc from './mc2.png'
 import collage from './collage2.png'
+import { useState } from 'react'
+
 
 function Projects() {
+
+    const [projectSelect, setProjectSelect] = useState('')
+
   return (
     <div className='projectsDiv' id='projects'>
         <h1>
@@ -47,12 +52,20 @@ function Projects() {
                     <h2 className='projectTitle'>This Portfolio</h2>
                     <div className='special'>
                         <p className='projectDesciption'>
-                        In my final semester of college, I took Applied Human Computer Interaction, which was focused primarily on frontend web development through the use of React. Developing BetterReads (see description above) was when I realized how much I  love web development! 
-
-    
+                        Before the Spring 2023 semester I still was not entirely sure what I wanted to do after college. Over my time at UB, I took a data mining class that I really enjoyed, a video game development class that I also liked, and a backend web development class that I loved. I didn’t have an immediate interest in grad school, which would be a good choice if I wanted to pursue data science. We had many guest speakers in my video game development class warning us off of the industry. In addition, I had knowledge of the crunch time crisis at most major game studios which made me wary to pursue that avenue. 
+   
+   </p>
+   <p className='projectDesciption'>
+   In my final semester of college, I took Applied Human Computer Interaction, which was focused primarily on frontend web development through the use of React. Developing BetterReads (see description above) was when I realized how much I  love web development! 
                     </p>
                     </div>
                 </div>
+            </div>
+
+            <div className='flex-container2'>
+            <div class="pica"><img src={brds} alt="better reads screen shot" class="image3a"/></div>
+            <div class="picb"><img src={mc} alt="better reads screen shot" class="image3b"/></div>
+            <div class="picc"><img src={collage} alt="better reads screen shot" class="image3c"/></div>
             </div>
 
 

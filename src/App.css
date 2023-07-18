@@ -286,3 +286,89 @@ html {
   box-shadow: 1px 1px 8px black;
   width: 400px;
 }
+
+.image3 {
+  border-radius: 15px;
+  box-shadow: 1px 1px 8px black;
+  width: 400px;
+  filter: grayscale(100%);
+}
+
+.image3:hover {
+  border-radius: 15px;
+  box-shadow: 5px 5px 18px black;
+  filter: grayscale(0%);
+  /* width: 420px; */
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: normal;
+  align-items: normal;
+  align-content: normal;
+  width: 100%;
+  background-image: url('./sections/1.png');
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 6px black;
+  align-items: center;
+  margin-bottom: 25px;
+  height: 400px;
+}
+
+
+.image3a {
+  border-radius: 15px;
+  box-shadow: 1px 1px 8px black;
+  width: 400px;
+  filter: grayscale(100%);
+}
+
+.image3a:hover {
+  border-radius: 15px;
+  box-shadow: 5px 5px 18px black;
+  filter: grayscale(0%);
+  /* width: 420px; */
+}
+
+.image3b {
+  border-radius: 15px;
+  box-shadow: 1px 1px 8px black;
+  width: 400px;
+  filter: grayscale(100%);
+}
+
+.image3b:hover {
+  border-radius: 15px;
+  box-shadow: 5px 5px 18px black;
+  filter: grayscale(0%);
+  /* width: 420px; */
+}
+
+.image3c {
+  border-radius: 15px;
+  box-shadow: 1px 1px 8px black;
+  width: 400px;
+  filter: grayscale(100%);
+}
+
+.image3c:hover {
+
+  animation: myAnim 1s ease 0s 1 normal forwards;
+  border-radius: 15px;
+  box-shadow: 5px 5px 18px black;
+  filter: grayscale(0%);
+  /* width: 420px; */
+}
+
+@keyframes myAnim {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
