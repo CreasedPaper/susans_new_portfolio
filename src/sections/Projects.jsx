@@ -2,6 +2,11 @@ import React from 'react'
 import brds from './betterreads.png'
 import mc from './mc2.png'
 import collage from './collage2.png'
+
+
+import b from './ratioBR.png'
+import c from './ratioCL.png'
+import m from './ratioMC.png'
 import { useState } from 'react'
 
 
@@ -29,9 +34,9 @@ function Projects() {
         if(currentState == 0){
             return(
             <div className='flex-container2'>
-            <div class="pica"><img src={brds} alt="better reads screen shot" class="image3a" onClick={() => changePanelA()}/></div>
-            <div class="picb"><img src={mc} alt="better reads screen shot" class="image3b" onClick={() => changePanelB()}/></div>
-            <div class="picc"><img src={collage} alt="better reads screen shot" class="image3c" onClick={() => changePanelC()}/></div>
+            <div class="pica"><img src={b} alt="better reads screen shot" class="image3a" onClick={() => changePanelA()}/></div>
+            <div class="picb"><img src={m} alt="better reads screen shot" class="image3b" onClick={() => changePanelB()}/></div>
+            <div class="picc"><img src={c} alt="better reads screen shot" class="image3c" onClick={() => changePanelC()}/></div>
             </div>)
         } else if(currentState == 1) {
             return(
@@ -107,12 +112,12 @@ function Projects() {
 
   return (
     <div className='projectsDiv' id='projects'>
-        <h1>
+        <h1 className='projects'>
             Projects
         </h1>
         <div className='projectList'>
 
-            <div class="flex-container">
+            {/* <div class="flex-container">
                 
                 <div className='leftHolder'>
                     <div className="pic">
@@ -167,9 +172,11 @@ function Projects() {
                     </p>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
+            
             {choosePanel()}
+            
 
             {/* <div className='flex-container2'>
             <div class="pica"><img src={brds} alt="better reads screen shot" class="image3a"/></div>

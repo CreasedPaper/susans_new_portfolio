@@ -89,11 +89,16 @@
   align-self: center;
 }
 
+.projects {
+  text-align: center;
+}
+
 .projectList {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-self: center;
+  width: 100%;
 }
 
 .projectTitle {
@@ -238,6 +243,7 @@ html {
 }
 
 .flex-container {
+  height: 475px;
   display: flex;
   flex-direction: row;
   /* flex-wrap: wrap; */
@@ -251,6 +257,18 @@ html {
   box-shadow: 1px 1px 6px black;
   align-items: center;
   margin-bottom: 25px;
+  animation: myAnim2 1s ease 0s 1 normal forwards;
+}
+@keyframes myAnim2 {
+	0% {
+		opacity: 0;
+		transform: translateX(-800px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
 
 .pic {
@@ -304,7 +322,18 @@ html {
   /* width: 420px; */
 }
 
+.holster {
+  background-image: url('./sections/1.png');
+  height: 475px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 1px 1px 6px black;
+  margin-bottom: 25px;
+  height: 475px;
+}
+
 .flex-container2 {
+  height: 475px;
   display: flex;
   flex-direction: row;
   /* flex-wrap: wrap; */
@@ -318,14 +347,26 @@ html {
   box-shadow: 1px 1px 6px black;
   align-items: center;
   margin-bottom: 25px;
-  height: 400px;
+  height: 475px;
+  animation: myAnim3 1s ease 0s 1 normal forwards;
 }
 
+@keyframes myAnim3 {
+	0% {
+		opacity: 0;
+		transform: translateX(800px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
 
 .image3a {
   border-radius: 15px;
   box-shadow: 1px 1px 8px black;
-  width: 400px;
+  max-width: 400px;
   filter: grayscale(100%);
 }
 
@@ -339,7 +380,7 @@ html {
 .image3b {
   border-radius: 15px;
   box-shadow: 1px 1px 8px black;
-  width: 400px;
+  max-width: 400px;
   filter: grayscale(100%);
 }
 
@@ -353,7 +394,7 @@ html {
 .image3c {
   border-radius: 15px;
   box-shadow: 1px 1px 8px black;
-  width: 400px;
+  max-width: 400px;
   filter: grayscale(100%);
 }
 
