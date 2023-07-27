@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/susans_new_portfolio/static/css/main.7cbc252f.css",
-    "main.js": "/susans_new_portfolio/static/js/main.ef09ad97.js",
+    "main.css": "/susans_new_portfolio/static/css/main.9f664767.css",
+    "main.js": "/susans_new_portfolio/static/js/main.ccf2178f.js",
     "static/js/787.dd8c95d6.chunk.js": "/susans_new_portfolio/static/js/787.dd8c95d6.chunk.js",
     "static/media/collage.png": "/susans_new_portfolio/static/media/collage.ee11f903a92efd8b444a.png",
     "static/media/collage2.png": "/susans_new_portfolio/static/media/collage2.6dc3dbfb4cd01bec94db.png",
+    "static/media/ratioCL.png": "/susans_new_portfolio/static/media/ratioCL.9bcdef9c5de67873854f.png",
     "static/media/betterreads.png": "/susans_new_portfolio/static/media/betterreads.c82538d68143481e0d6b.png",
+    "static/media/ratioBR.png": "/susans_new_portfolio/static/media/ratioBR.20240db22b1db64c3215.png",
     "static/media/mc2.png": "/susans_new_portfolio/static/media/mc2.5bdcaea61bd04029ce94.png",
     "static/media/1.png": "/susans_new_portfolio/static/media/1.4f22a525c232f23a57c6.png",
+    "static/media/ratioMC.png": "/susans_new_portfolio/static/media/ratioMC.43048b078e23cb8bcc85.png",
     "static/media/logo.svg": "/susans_new_portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/susans_new_portfolio/index.html",
-    "main.7cbc252f.css.map": "/susans_new_portfolio/static/css/main.7cbc252f.css.map",
-    "main.ef09ad97.js.map": "/susans_new_portfolio/static/js/main.ef09ad97.js.map",
+    "main.9f664767.css.map": "/susans_new_portfolio/static/css/main.9f664767.css.map",
+    "main.ccf2178f.js.map": "/susans_new_portfolio/static/js/main.ccf2178f.js.map",
     "787.dd8c95d6.chunk.js.map": "/susans_new_portfolio/static/js/787.dd8c95d6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cbc252f.css",
-    "static/js/main.ef09ad97.js"
+    "static/css/main.9f664767.css",
+    "static/js/main.ccf2178f.js"
   ]
 }
