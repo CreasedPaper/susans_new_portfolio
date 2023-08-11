@@ -12,7 +12,7 @@ function Intro() {
           at the Computer Science Department Annual Demo Day event at which we competed against other undergraduate students with long term, multi-semester 
           projects as well as graduate students.
         </p>
-        <h3>Personal Interests</h3>
+        <h1 className='intro2Title'>Personal Interests</h1>
         <p>
         Outside of programming I have a lot of hobbies. I love to read, crochet, paint, play video games, and hang out with my cat, Luna. My favorite book 
         genre is Fantasy and my favorite series is Rick Riordan's books featuring Percy Jackson. They are the books that made me fall in love with reading! 
